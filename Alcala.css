@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Fuente';
+    src: url('avgr45w.woff') format('woff'),
+         url('avgr45w.ttf')  format('truetype');
+  }
+
+@font-face {
+    font-family: 'Fuente2';
+    src: url(MNS_TRIAL.otf);
+}
+
+h4{
+    font-family: 'Fuente';
+}
+
+.textos{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.vienes{
+    font-family: 'Fuente2';
+}
+
+.pensando{
+    width:55%;
+    margin: auto;
+}
+
+.planta{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 50%;
+    height: 150px;
+}
+
+.plantas{
+    width: 46%;
+}
+
+.plantas .destino{
+    font-family: 'Fuente2';
+}
