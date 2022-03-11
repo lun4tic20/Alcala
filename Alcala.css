@@ -14,7 +14,7 @@ h4 {
 
 .textos {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 12%;
 }
 
 .vienes {
@@ -41,9 +41,9 @@ h4 {
     font-family: 'Fuente2';
 }
 
-.contenido .sub {
+.contenido .sub, .contenido1 .sub {
     position: absolute;
-    left: 14%;
+    left: 24%;
     bottom: -28%;
     width: 80%;
     padding: 2% 0;
@@ -128,6 +128,16 @@ h4 {
     margin-left: 18%;
 }
 
+.css_col_3_img1_1{
+    float: left;
+    margin-left: 32%;
+}
+
+.css_col_3_img1_2{
+    float: left;
+    margin-left: 20%;
+}
+
 .css_col_3_img2 {
     float: left;
 }
@@ -135,6 +145,16 @@ h4 {
 .css_col_3_img3 {
     float: left;
     margin-left: -18%;
+}
+
+.css_col_3_img3_1{
+    float: left;
+    margin-left: -25%;
+}
+
+.css_col_3_img3_2{
+    float: left;
+    margin-left: -13%;
 }
 
 .cnt {
@@ -186,4 +206,123 @@ h4 {
 .footer_logos img {
     float: left;
     margin-left: 5%;
+}
+
+.car{
+    visibility: hidden;
+    display: none;
+}
+
+@media screen and (max-width: 750px){
+
+    .textos{
+        padding-top: 30%;
+        width:60%;
+        margin:auto;
+    }
+
+    .plantas{
+        width:90%;
+    }
+
+    .planta{
+        background-size: 60%;
+    }
+
+    .vacaciones{
+        text-align: center;
+        width:65%;
+        margin-left: 20%;
+    }
+
+    .destino{
+        width:50%;
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    .contenido1{
+        padding-top: 90%;
+    }
+
+    .contenido1 .sub{
+        bottom: -10%;
+    }
+
+    .todo{
+        padding-top: 60%;
+    }
+
+    hr{
+        visibility: hidden;
+    }
+
+    .car{
+        visibility: visible;
+        display: block;
+    }
+
+    .packs{
+        visibility: hidden;
+        display: none;
+    }
+
+    .destino{
+        margin: auto;
+    }
+
+    .promos{
+        width: 70%;
+        text-align: center;
+        margin:auto;
+        padding-bottom: 5%;
+    }
+
+    .lineaver{
+        visibility: hidden;
+        display: none;
+    }
+
+    .izq{
+        padding-bottom: 7%;
+    }
+
+    .olivos{
+        margin-top: -70%;
+        width: 10vw;
+        height: 7vh;
+    }
+
+    .logos_img{
+        margin-top: -65%;
+        width: 100%;
+        height: 15%
+    }
+
+    .excusa{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .posicion{
+        position: absolute;
+        background-image: url(img/Footer.png);
+        width: 100%;
+        height: 100%;
+        bottom: -184%;
+    }
+
+    .redes{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20%;
+    }
+
+    .aloja{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
